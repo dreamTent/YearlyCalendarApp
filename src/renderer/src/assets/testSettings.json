@@ -1,0 +1,38 @@
+{
+    "version": "001",
+    "userData": {
+        "lastUpdated": ""
+    },
+    "categories": [
+        {
+            "type": "stringHighlighter",
+            "highlightInTitle": true,
+            "highlightInBody": false,
+            "showTableWithColors": true,
+            "title": "people",
+            "filters": [
+                {
+                    "regex": "(DD |Daniel D |DD|Daniel D)",
+                    "caseSensitive": false,
+                    "textColor": "",
+                    "highlightColor": "#20d044",
+                    "title": "DD: Daniel Dev"
+                },
+                {
+                    "regex": "(AA |AA)",
+                    "caseSensitive": false,
+                    "textColor": "",
+                    "highlightColor": "#e8c45a",
+                    "title": "AA"
+                },
+                {
+                    "regex": "(Pizza |Pizza)",
+                    "caseSensitive": false,
+                    "textColor": "",
+                    "highlightColor": "#f13af7",
+                    "title": "Pizza"
+                }
+            ]
+        }
+    ]
+}

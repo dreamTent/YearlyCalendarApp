@@ -1,0 +1,76 @@
+.calendarEventPreviewTitle {
+    overflow: hidden;
+    position: relative;
+}
+
+.calendarEventPreviewTitle:hover {
+    visibility: visible;
+    overflow: visible;
+
+    z-index: 1000;
+    cursor: pointer;
+
+}
+
+.calendarEventPreviewTitle:hover div:first-child {
+
+    background-color: white;
+    z-index: 1000;
+    box-shadow: black 0px 0px 3px;
+}
+
+
+.dayListElement {
+    float: left;
+    width: 16px;
+    height: 100%;
+    border: 1px solid rgb(204, 204, 204);
+    border-width: 0px 1px 0px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dayListElement:hover {
+
+    background-color: white;
+    z-index: 1000;
+    box-shadow: black 0px 0px 3px;
+    cursor: pointer;
+}
+
+.multidayElement {
+    float: left;
+    overflow: hidden;
+    z-index: 100;
+    position: absolute;
+}
+
+.multidayElement:hover {
+    background-color: white;
+    z-index: 1000;
+    box-shadow: black 0px 0px 3px;
+    overflow: visible;
+    cursor: pointer;
+}
+
+
+.multidayElement:hover .multidayElementdescription {
+
+    background-color: white;
+    z-index: 1000;
+    box-shadow: black 0px 0px 3px;
+    visibility: visible;
+    position: relative;
+    top: -120px;
+}
+
+.multidayElement .multidayElementdescription {
+
+    visibility: hidden;
+}
+
+.multiDayEventLine {
+    position: relative;
+}
