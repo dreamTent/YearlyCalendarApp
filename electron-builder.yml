@@ -1,5 +1,5 @@
-appId: com.electron.app
-productName: vite_react_electron_test_app
+appId: com.dreamTent.yearly_calendar.app
+productName: yearly_calendar_app
 directories:
   buildResources: build
 files:
@@ -12,7 +12,7 @@ files:
 asarUnpack:
   - resources/**
 win:
-  executableName: vite_react_electron_test_app
+  executableName: yearly_calendar_app
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}
