@@ -1,0 +1,43 @@
+TODOS:
+    Menus:
+        Hover Menus:
+            - hover menu for day event
+            - hover menu for multi day event
+            - hover menu for day
+                - info about day
+                - info about events
+                - info about multi day events (new graph that shows everything)
+        Click Menus:
+            - day
+            - event
+        Generall Menus:
+            - Settings
+                - Settings Page
+                - Settings Presets
+            - Manage accounts
+                - List accounts
+                - Add accounts
+                - Remove accounts
+
+    Features:
+        - change year
+        - change view
+        - change view settings
+        - show categories coloring Table
+        - change categories and coloring settings
+
+    Connection to Calendar:
+        - Microsoft Exchange (Exchange Active Sync)
+        - local Outlook
+        - IMAP
+        - Microsoft 365 / Outlook
+        - Google Calendar API
+
+    Other:
+        - design
+
+
+
+
+Extras:
+    - Calendar View grouped by month, with multi day events as as bars
