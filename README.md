@@ -24,13 +24,13 @@ An application that can give you a detailed comprehensive yearly overviews of yo
 ## Compatability
 * Platforms:
     * Windows
-* Calendars:
-    * IMAP
-    * Outlook.com
-    * Office 365 / Outlook / Exchange
-    * Microsoft Exchange Active Sync
-    * Microsoft Outlook local
-    * Google
-    * iCloud
+* Supported Calendars:
+    * ~~IMAP~~
+    * ~~Outlook.com~~
+    * ~~Office 365 / Outlook / Exchange~~
+    * ~~Microsoft Exchange Active Sync~~
+    * ~~Microsoft Outlook local~~
+    * ~~Google~~
+    * ~~iCloud~~
 
 ## Installation
