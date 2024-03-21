@@ -91,3 +91,11 @@
     width: inherit;
     text-align: center;
 }
+
+
+*,
+::after,
+::before {
+
+    box-sizing: content-box !important;
+}
