@@ -18,8 +18,8 @@ function App() {
   return (
     <>
       <Navbar />
-      {CategoryFilterTable()}
-      <div style={{}}>{CalenderGroupedByMonth(2024, 11, 5)}</div>
+      <div style={{ float: 'left', fontSize: '10px', marginLeft: '10px' }}>  {CategoryFilterTable()}</div>
+      <div style={{ float: 'left' }}>{CalenderGroupedByMonth(2024, 11, 5)}</div>
       <div style={{ width: '100%', height: '400px' }}></div>
       <div style={{ float: 'left' }}>{CalenderHorizontal(2024, 1, 3)}</div>
 

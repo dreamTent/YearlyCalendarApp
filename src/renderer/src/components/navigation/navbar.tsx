@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { Nav, Navbar, Container, NavDropdown, Dropdown, Form } from 'react-bootstrap';
+import { Nav, Navbar, Container, NavDropdown, Dropdown, Form, ToggleButton } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image'
 import "react-datepicker/dist/react-datepicker.css";
 import DatePicker from "react-datepicker";
@@ -15,22 +15,43 @@ import accountLogoTMP from '../../assets/electron.svg'
 
 function MyNavbar() {
 
-    const [selectedDate, setSelectedDate] = useState(null);
 
     return (
         <Navbar className="navbar nabvar-light bg-light justify-content-between " >
+            <div>
+                <Dropdown style={{ marginLeft: '8px', float: 'left' }}>
+                    <Dropdown.Toggle variant=" primary" id="dropdown-basic" onChange={(e) => { console.log("click"); e.currentTarget.textContent = "esr" }}>
+                        View: Both
+                    </Dropdown.Toggle>
 
-            <Dropdown style={{ marginLeft: '8px' }}>
-                <Dropdown.Toggle variant=" primary" id="dropdown-basic">
-                    View: Both
-                </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                        <Dropdown.Item href="#/action-1">Both</Dropdown.Item>
+                        <Dropdown.Item href="#/action-2">Grouped</Dropdown.Item>
+                        <Dropdown.Item href="#/action-3">Horizontal</Dropdown.Item>
+                    </Dropdown.Menu>
+                </Dropdown>
 
-                <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1">Both</Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">Grouped</Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">Horizontal</Dropdown.Item>
-                </Dropdown.Menu>
-            </Dropdown>
+                <Dropdown style={{ marginLeft: '8px', float: 'left' }}>
+                    <Dropdown.Toggle variant=" primary" id="dropdown-basic">
+                        Show Categories
+                    </Dropdown.Toggle>
+                </Dropdown>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
             <div>
                 <a href='' style={{ float: 'left' }}>
                     <i className="bi bi-arrow-left" style={{ fontSize: '25px', marginRight: '8px' }}></i>
