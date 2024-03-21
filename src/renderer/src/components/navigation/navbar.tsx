@@ -14,13 +14,13 @@ import accountLogoTMP from '../../assets/electron.svg'
 
 
 function MyNavbar() {
-
+    const [selectedDate, setSelectedDate] = useState(null);
 
     return (
         <Navbar className="navbar nabvar-light bg-light justify-content-between " >
             <div>
                 <Dropdown style={{ marginLeft: '8px', float: 'left' }}>
-                    <Dropdown.Toggle variant=" primary" id="dropdown-basic" onChange={(e) => { console.log("click"); e.currentTarget.textContent = "esr" }}>
+                    <Dropdown.Toggle variant=" primary" id="dropdown-basic" onChange={(e) => { console.log("click") }}>
                         View: Both
                     </Dropdown.Toggle>
 
@@ -73,6 +73,9 @@ function MyNavbar() {
             </div>
 
             <div>
+                <a href='#'>
+                    <Image src={accountLogoTMP} roundedCircle={true} style={{ height: '35px', width: '35px', backgroundColor: '#bbb', marginRight: '8px', float: 'left' }} />
+                </a>
                 <a href='#'>
                     <Image src={accountLogoTMP} roundedCircle={true} style={{ height: '35px', width: '35px', backgroundColor: '#bbb', marginRight: '8px', float: 'left' }} />
                 </a>

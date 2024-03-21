@@ -9,28 +9,58 @@
             "highlightInTitle": true,
             "highlightInBody": false,
             "showTableWithColors": true,
-            "title": "people",
+            "title": "People",
             "filters": [
                 {
                     "regex": "(DD |Daniel D |DD|Daniel D)",
                     "caseSensitive": false,
                     "textColor": "",
                     "highlightColor": "#20d044",
-                    "title": "DD: Daniel Dev"
+                    "title": "Daniel"
                 },
                 {
-                    "regex": "(AA |AA)",
+                    "regex": "(Paul |Paul|Paul P| Paul P )",
                     "caseSensitive": false,
                     "textColor": "",
                     "highlightColor": "#e8c45a",
-                    "title": "AA"
+                    "title": "Paul"
                 },
                 {
-                    "regex": "(Pizza |Pizza)",
+                    "regex": "(Emma |Emma)",
                     "caseSensitive": false,
                     "textColor": "",
                     "highlightColor": "#f13af7",
+                    "title": "Emma"
+                },
+                {
+                    "regex": "(Felix |Felix)",
+                    "caseSensitive": false,
+                    "textColor": "",
+                    "highlightColor": "#8e4eed",
+                    "title": "Felix"
+                }
+            ]
+        },
+        {
+            "type": "stringHighlighter",
+            "highlightInTitle": true,
+            "highlightInBody": false,
+            "showTableWithColors": true,
+            "title": "Keywords",
+            "filters": [
+                {
+                    "regex": "(Pizza)",
+                    "caseSensitive": false,
+                    "textColor": "",
+                    "highlightColor": "#57faec",
                     "title": "Pizza"
+                },
+                {
+                    "regex": "(Meeting)",
+                    "caseSensitive": false,
+                    "textColor": "",
+                    "highlightColor": "#f5663b",
+                    "title": "Meeting"
                 }
             ]
         }
