@@ -11,6 +11,7 @@ TODOS:
             - day
             - event
         Generall Menus:
+            - Navbar
             - Settings
                 - Settings Page
                 - Settings Presets

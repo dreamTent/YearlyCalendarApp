@@ -23,7 +23,11 @@
   "dependencies": {
     "@electron-toolkit/preload": "^3.0.0",
     "@electron-toolkit/utils": "^3.0.0",
-    "ffi-napi": "^4.0.3"
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "ffi-napi": "^4.0.3",
+    "react-bootstrap": "^2.10.2",
+    "react-datepicker": "^6.5.0"
   },
   "devDependencies": {
     "@electron-toolkit/eslint-config-prettier": "^2.0.0",

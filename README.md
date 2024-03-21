@@ -34,3 +34,4 @@ An application that can give you a detailed comprehensive yearly overviews of yo
     * ~~iCloud~~
 
 ## Installation
+ 

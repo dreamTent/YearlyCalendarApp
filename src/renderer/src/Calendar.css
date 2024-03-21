@@ -74,3 +74,20 @@
 .multiDayEventLine {
     position: relative;
 }
+
+
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+
+.react-datepicker__input-container {
+    width: inherit;
+}
+
+
+.react-datepicker__input-container input {
+    width: inherit;
+    text-align: center;
+}

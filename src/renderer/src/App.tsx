@@ -6,6 +6,7 @@ import './Calendar.css'
 
 import CalenderGroupedByMonth from './components/calendar/calendar_days_grouped_by_month/Calendar'
 import CalenderHorizontal from './components/calendar/calendar_horizontal_month_list/Calendar'
+import Navbar from './components/navigation/navbar'
 
 
 
@@ -15,8 +16,7 @@ import CalenderHorizontal from './components/calendar/calendar_horizontal_month_
 function App() {
   return (
     <>
-      <h1 style={{ margin: '0' }}>Calendar title 2004</h1>
-
+      <Navbar />
       <div style={{}}>{CalenderGroupedByMonth(2024, 11, 5)}</div>
       <div style={{ width: '100%', height: '400px' }}></div>
       <div style={{ float: 'left' }}>{CalenderHorizontal(2024, 1, 3)}</div>
