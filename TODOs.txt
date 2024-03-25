@@ -11,6 +11,7 @@ TODOS:
             - day
             - event
         Generall Menus:
+            - Welcome Page (when no accounts have been added)
             - Navbar
             - Settings
                 - Settings Page
